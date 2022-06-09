@@ -33,7 +33,7 @@ class Boston(QWidget):
         titleLabel = QLabel("波士顿房价预测",self)
         titleLabel.setFont(QFont("Roman times",15 ,QFont.Bold))
         titleLabel.move(380, 40)
-        authorLabel = QLabel("作者：笔尖 / bj",self)
+        authorLabel = QLabel("作者：庄程豪/zch",self)
         authorLabel.move(760, 70)
 
         depLabel = QLabel(" 查看不同深度的学习曲线：",self)
